@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/auth_db
-    username: root
-    password: rishabh2506
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
 
   jpa:
     hibernate:
