@@ -11,3 +11,7 @@ spring:
 
 server:
   port: 8081
+
+jwt:
+  secret: MyVerySecretKeyForEcommerceApplicationJWTAuthentication2026
+  expiration: 86400000
