@@ -1,1 +1,14 @@
-message: Hello from GitHub Config Server
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Rishabhmeena23/ecommerce-config.git
+          default-label: main
+          clone-on-start: true
